@@ -1,0 +1,85 @@
+body {
+    background-color: black;
+    color: gray;
+}
+
+h1, header {
+    font-family: 'Pacifico', cursive;
+    font-size: 4em;
+    margin-bottom: 0;
+}
+
+
+header, main, nav, footer {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2.5rem;
+
+}
+
+.invert {
+    filter: invert(60%);
+}
+
+nav a {
+    padding: 15px 15px 4px;
+    font-size: 1.8em;
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    font-size: smaller; /* text smaller */
+    color: chartreuse; /* different color (your choice) */
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+
+}
+
+/* nav: current page should stand out */
+nav #current-page {
+    color: chartreuse;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: chartreuse;
+    text-decoration: underline chartreuse;
+}
+
+div, table {
+    margin: 0 auto;
+}
+
+td {
+    padding-right: 10px;
+    font-size: 1.3em;
+}
+
+td strong {
+    color: orange;
+}
+
+#table-header {
+    background-color: #351A00;
+}
+
+.table-row {
+    background-color: #753900;
+}
+
+ul {
+    width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.hobby {
+    color: yellow;
+}
